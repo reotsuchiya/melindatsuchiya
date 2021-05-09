@@ -1,0 +1,68 @@
+.gallery {
+  display: flex;
+  padding: 10px;
+}
+
+#city {
+  background-image: url("public/city.jpg");
+}
+#dimples {
+  background-image: url("public/dimples.jpg");
+}
+#evergreen {
+  background-image: url("public/evergreen.jpg");
+}
+#nepal {
+  background-image: url("public/nepal.jpg");
+}
+#partnership {
+  background-image: url("public/partnership.jpg");
+}
+#sunglasses {
+  background-image: url("public/sunglasses.jpg");
+}
+.gallery-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  width: 500px;
+}
+
+.family {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+.cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.image {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  flex-grow: 1;
+}
+#sakaru {
+  background-image: url("public/weddinglocation.jpg");
+}
+#mori {
+  background-image: url("public/mori.jpg");
+}
+#ann {
+  background-image: url("public/threegenerationsofdaughters.jpg");
+}
+#sarah {
+  background-image: url("public/sarah.jpg");
+}
+#reo {
+  background-image: url("public/reo.jpg");
+}
+div.card > p {
+  flex-grow: 4
+}
+div.card > h3 {
+  flex-grow: 1
+}
